@@ -1,5 +1,24 @@
 # QA Functional Automation Tests
 
+## **<u>Test Cases covered</u>**
+
+- Home Page (home.feature)
+    - Open & validate Home page loaded
+    - Validate header components including logo, nav menu bar, search icon, etc.
+    - Validate footer components including markdown section, open links & newsletter section
+    - Validate labels from test data files (json)
+- Search Page (search.feature)
+    - Open & validate Search Page loaded
+    - Enter search keyword & execute
+    - Verify search results are visible
+    - Verify search keyword is present in each search result
+- Contact Page (contact.feature)
+    - Open & validate Contact page loaded
+    - Submit contact enquiry using given details
+- Timeline Page (timeline.feature)
+    - Open & validate Timeline page loaded
+    - Validate all timeline events using test data
+
 ## <u>Test Framework : CodeceptJS using Selenium Webdriver</u>
 - We have used **Codeceptjs framework** to write Automation tests that utilizes **Selenium Webdriver**. More info about codeceptjs here https://codecept.io/api/
 - We have used Behaviour Driver Development (BDD) approach to writes test cases. More details here https://codecept.io/bdd/
@@ -22,7 +41,22 @@
 
 - **Note** : Re-run this command whenever new dependency is added or there is change in dependency version or the local browser version is updated.
 
-### <u>Execute Tests</u>
+### **Execute All Tests**
+
+1. Start Selenium server
+    ```
+    npm run start:selenium
+    ```
+2. Run all tests in chrome browser in headless mode
+    ```
+    npm run test -- -P web -E prod -B chrome -h
+    ```
+3. Open Allure report
+    ```
+    npm run report:web
+    ```
+
+### **Test Command execution details**
 
 1. Post installation of all dependencies, open a new terminal tab & execute command to start selenium server
 
@@ -57,7 +91,7 @@
     npm run test:web -- --grep '(?=.*@home) --verbose
     ```
 
-### <u>Reporting (using Allure)</u>
+### **Reporting (using Allure)**
 
 - Allure Reporter is enabled to create the final Test Report. 
 - In order to view the report in local browser, execute command:
@@ -65,7 +99,7 @@
     npm run report:web
     ```
 
-### <u> Code setup </u>
+## **Code Setup**
 
 Root directory comprises of following important files & folders:
 
@@ -142,24 +176,6 @@ The script supports running tests with the following arguments:
     npm test -- -P web -c -s
     ```
 
-## **<u>Test Cases covered</u>**
-
-- Home Page (home.feature)
-    - Open & validate Home page loaded
-    - Validate header components including logo, nav menu bar, search icon, etc.
-    - Validate footer components including markdown section, open links & newsletter section
-    - Validate labels from test data files (json)
-- Search Page (search.feature)
-    - Open & validate Search Page loaded
-    - Enter search keyword & execute
-    - Verify search results are visible
-    - Verify search keyword is present in each search result
-- Contact Page (contact.feature)
-    - Open & validate Contact page loaded
-    - Submit contact enquiry using given details
-- Timeline Page (timeline.feature)
-    - Open & validate Timeline page loaded
-    - Validate all timeline events using test data
 
 
 
