@@ -1,0 +1,22 @@
+{
+    "heading" : "GET IN TOUCH",
+    "officeLocations" : [
+        {
+            "name": "DUBAI HQ",
+            "address": "A-202, Bldg 4, \nDubai Design District \nDubai, U.A.E.\nPOBox 500601 ",
+            "phone": "+9714 367 8184"
+        },
+        {
+            "name": "ABU DHABI",
+            "address": "3412, Res 02, Level 34 \nAl Maqam Tower, Maryah Island \nAbu Dhabi, U.A.E.\nPOBox 500601",
+            "phone": "+9714 367 8184"
+        },
+        {
+            "name": "TORONTO",
+            "address": "Twain Ave.\nMississauga\nOntario, Canada \nL5W 1M1",
+            "phone": "+1 647 297 4909"
+        }
+    ],
+    "enquirySuccessMessage": "Thank you for your inquiry. Our team will be in touch with you shortly.",
+    "captchaErrorMessage": "Captcha validation failed. Please try again."
+}

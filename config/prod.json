@@ -1,0 +1,27 @@
+{
+    "domain": "https://www.xische.com/",
+    "search" : {
+        "path": "/search"
+    },
+    "timeline": {
+        "path": "/timeline"
+    },
+    "contact": {
+        "path": "/get-in-touch"
+    },
+    "caseStudy": {
+        "path": "/work",
+        "strategy" : {
+            "path" : "/all-work?category=Strategy"
+        },
+        "content" : {
+            "path" : "/all-work?category=Content"
+        },
+        "design" : {
+            "path" : "/all-work?category=Design"
+        },
+        "labs" : {
+            "path" : "/all-work?category=Labs"
+        }
+    }
+}

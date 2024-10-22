@@ -1,0 +1,102 @@
+{
+    "heading" : "TIMELINE 2001-2023",
+    "subHeading" : "Strategists, technologists and storytellers, solving real-world challenges since 2001",
+    "events" : [
+        {
+            "year" : "2001",
+            "title" : "Founded in Dubai",
+            "desc" : "We are the first independent practice of its kind, with headquarters in Dubai, and offices in Abu Dhabi & New York.",
+            "hasImage" : false
+        },
+        {
+            "year" : "2006",
+            "title" : "Created Dubai’s first tourism brand",
+            "desc" : "We conceived, designed and developed a unified city-wide national tourism brand, campaign and digital destination.",
+            "hasImage" : true
+        },
+        {
+            "year" : "2007",
+            "title" : "Launched first UAE bank on social",
+            "desc" : "We helped RAKBank launch one of the largest social footprints of a financial institution globally.",
+            "hasImage" : false
+        },
+        {
+            "year" : "2013",
+            "title" : "Founded Hybrid Thinking",
+            "desc" : "We founded hybrid thinking™ as our core principle, combining management consulting with design thinking, leveraging technology and investing capital with our clients.",
+            "hasImage" : false
+        },
+        {
+            "year" : "2014",
+            "title" : "Launched Smart Dubai",
+            "desc" : "Xische was the founding brand, communications and strategic partner of Smart Dubai, the citywide digital transformation program to make Dubai the happiest city on earth.",
+            "hasImage" : true
+        },
+        {
+            "year" : "2015",
+            "title" : "Co-authored Dubai Happiness Agenda",
+            "desc" : "We were engaged to co-author, build, launch and manage a science-backed, methodical framework to plan, implement and measure Dubai’s smart city transformation with a quantifiable basis in promoting public happiness.",
+            "hasImage" : false
+        },
+        {
+            "year" : "2015",
+            "title" : "Announced UAE Mission to Mars",
+            "desc" : "The Mohammed bin Rashid Space Centre and Prime Minister’s Office tasked us to help build the overarching vision and narrative to announce the the first interplanetary space mission by the Arab World.",
+            "hasImage" : true
+        },
+        {
+            "year" : "2015",
+            "title" : "Xische Academy launched",
+            "desc" : "Opened doors to our academy to train over 1000 government officials across 25 entities on design thinking, prototyping, future tech and storytelling, starting with the Dubai 10X program.",
+            "hasImage" : false
+        },
+        {
+            "year" : "2016",
+            "title" : "Co-authored Dubai Blockchain Strategy",
+            "desc" : "We co-authored the national strategy with Smart Dubai and Dubai Future Foundation to unlock the potential of Blockchain for the city.",
+            "hasImage" : false
+        },
+        {
+            "year" : "2017",
+            "title" : "Thought Leadership practice launched",
+            "desc" : "We work with partners like UAE Prime Minister’s Office, DEWA and Dubai Municipality to create global insights through our independent articles, newsletters, commissioned reports and presentations that have been showcased in TIME Magazine and the World Government Summit.",
+            "hasImage" : true
+        },
+        {
+            "year" : "2018",
+            "title" : "Xische Digital launched",
+            "desc" : "Our digital transformation arm works with clients like Smart Dubai and Abu Dhabi Digital Authority to assemble and manage digital leadership and operational squads through strategic planning, design, implementation and performance.",
+            "hasImage" : false
+        },
+        {
+            "year" : "2021",
+            "title" : "Global partnership with Amazon",
+            "desc" : "Our Digital Transformation team was certified as an AWS premium partner.",
+            "hasImage" : false
+        },
+        {
+            "year" : "2022",
+            "title" : "100th issue of Backstory",
+            "desc" : "We have been distilling global shifts in key sectors with a regional perspective in our weekly newsletters.",
+            "hasImage" : true
+        },
+        {
+            "year" : "2022",
+            "title" : "Launched Dubai on the Metaverse",
+            "desc" : "We helped conceive, design and communicate Dubai’s first steps into the metaverse at the World Government Summit 2022.",
+            "hasImage" : true
+        },
+        {
+            "year" : "2023",
+            "title" : "Branding in space",
+            "desc" : "We created a brand in 2015 for the MBR Space Center, which is now on-board the International Space Station.",
+            "hasImage" : true
+        },
+        {
+            "year" : "TODAY",
+            "title" : "400 clients + 150 people",
+            "desc" : "21 years later, with a 43% year-on-year growth, we are now over 150 people strong having serviced over 400 clients regionally with a remote-team footprint across 7 countries.",
+            "hasImage" : false
+        }
+    ]
+}

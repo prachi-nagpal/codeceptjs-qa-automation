@@ -1,0 +1,27 @@
+{
+  "name": "codeceptjs-qa-automation",
+  "version": "1.0.0",
+  "description": "This framework contains QA Automation tests using CodeceptJS framework",
+  "dependencies": {
+    "@codeceptjs/ui": "^1.2.0",
+    "allure-commandline": "^2.29.0",
+    "chai": "^5.1.0",
+    "codeceptjs": "^3.6.5",
+    "codeceptjs-chai": "^2.3.5",
+    "webdriverio": "^8.40.5"
+  },
+  "devDependencies": {
+    "@codeceptjs/allure-legacy": "^1.0.2",
+    "selenium-standalone": "^10.0.0"
+  },
+  "scripts": {
+    "build": "npm update && npm install && npx selenium-standalone install",
+    "start:selenium": "npx selenium-standalone start",
+    "test:web": "npx codeceptjs run --config=codecept/web.codecept.conf.js --verbose",
+    "report:web": "allure serve output/web",
+    "test": "bash test_runner.bash"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
